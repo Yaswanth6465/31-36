@@ -1,0 +1,156 @@
+<html>
+<head> 
+    <link rel="stylesheet" href="style.css">
+    <body> 
+    <div class="p1">
+       October 20, 2003, from IBM’s Web site <em>http://www-106.ibm.com/developerworks/<br>
+webservices/library/ws-secmap/#2.1</em><br>
+Jagannathan, V., Wreder, K., Glicksman, R. & alSafadi, Y. (1998). Objects in healthcare-<br>focus on standards. <em>StandardView</em>, 6(1), 22-26.<br>
+Johnson, R. (1997), Frameworks = (components + patterns) [Electronic Version].<em> Com-<br>munications of the ACM, 40</em>(10), 39-42.<br>
+Johnson, R. & Foote, B. (1988). Designing reusable classes. <em>Journal of Object-Oriented<br>
+Programming, </em>1(2).<br>
+Kohn, L., Corrigan, J. & Donaldson, M. (1999).<em> To err is human: Building a safer health<br>
+system.</em> Washington, DC: National Academy Press.<br>
+Krzystof, C. (2001).<em> Medical data mining and knowledge discovery.</em> Heidelberg: Physica-<br>Verlag.<br>
+Kuhn, K. & Giuse, D. (2001). From hospital information systems to health information<br>
+systems: Problems, challenges, perspectives [Electronic Version]. <em>Yearbook of<br>
+Medical Informatics 2001,</em> pp. 63-76. Stuttgart: Schattauer.<br>
+Lenz, R. & Kuhn, K. (2004). Towards a continuous evolution and adaptation of informa-<br>tion systems in healthcare. <em>International Journal of Medical Informatics, 73(1),<br>
+75-89.<br>
+MacDonald, M. (2003). <em>Microsoft .Net distributed applications: Integrating XML Web<br>
+services and .Net remoting.</em> Washington, DC: Microsoft Press.<br>
+Marinos, E., Marinos, G. & Koutsouris, D. (2003). Towards an XML-based user interface<br>
+for electronic health record.<em> Proceedings of the 25th Annual International Confer-<br>ence of the IEEE Engineering in Medicine and Biology Society,</em> Cancun, Mexico,<br>
+September 17-21.<br>
+Markiewicz, M. & Lucena, C. (2001). Object-oriented framework development [Electronic<br>
+Version]. <em>Crossroads,</em> 7(4), 3-9.<br>
+Object Management Group (n.d.). About the object management group. Retrieved March<br>
+12, 2004, from the OMG Web site<em> http://www.omg.org/gettingstarted/<br>
+gettingstartedindex.htm</em><br>
+OMG HealthCare Task Force (n.d.). Home page. Retrieved January 15, 2004, from <em>http:/<br>
+/healthcare.omg.org/</em><br>
+OpenEMed (n.d.). Home page. Retrieved March 1, 2004, from <em>http://openemed.org/</em><br>
+OpenEHR (n.d.). The Interface between the GEHR Project and Technical Committee TC/<br>
+251-Medical Informatics of CEN. Retrieved March 2, 2004, from OpenEHR Web site<br>
+<em>http://www.openehr.org/intro_origins_gehr_gehrcen.htm</em><br>
+Organization for the Advancement of Structured Information Standards (2004). Web<br>
+Services security: SOAP message security. Retrieved March 2004 from <em>http://<br>
+www.oasis-open.org/committees/download.php/5941/oasis-200401-wss-soap-<br>message-security-1.0.pdf</em><br>
+W3C Web Services Activity (n.d.). Web Services activity statement. Retrieved March 2,<br>
+2004, from W3C Web site <em>http://www.w3.org/2002/ws/Activity</em><br>
+<br><hr>
+        <div class="p2">
+        World Wide Web Consortium (2002). XML encryption syntax and processing. Retrieved<br>
+December 10, 2002 from the W3C Recommendation <em>http://www.w3.org/TR/xmlenc-<br>core/</em><br>
+World Wide Web Consortium (2002). XML-signature syntax and processing. Retrieved<br>
+February 12, 2002 from the W3C Recommendation <em>http://www.w3.org/TR/xmldsig-core/</em>
+<br></div><hr>
+<center><h4>Chapter III</h4>  
+<h1>Management and<br>
+Analysis of<br>
+Time-Related Data<br>
+in Internet-Based<br>
+Healthcare Delivery<br></h1> 
+   <p>Chris D. Nugent, University of Ulster at Jordanstown, Northern Ireland<br>
+       Juan C. Augusto, University of Ulster at Jordanstown, Northern Ireland<br></p> 
+        <h2>Abstract</h2></center>
+       <div class="line">
+            <hr></div>
+        
+        <div class="p3">
+<div class="italy"> 
+    <em> Technological advancements have and will continue to revolutionize the way healthcare<br>
+is being delivered and the interaction between patients and healthcare professionals.<br>
+A key component to these changes will be an extension to the utilization of the Internet,<br>
+further exploiting the extensible and interoperable features it offers. In addition to<br>
+providing a distributed communications infrastructure, the ability to incorporate<br>
+within Internet-based systems a means of intelligent data analysis in supporting<br>
+healthcare management has now become a reality. In this chapter, we provide the<br>
+rationale for usage of the Internet as a core infrastructure for a holistic approach to<br>
+distributed healthcare management and supplement this through the identification of<br>
+the potential role of temporal reasoning in addressing the time relevance of patient<br>
+centered clinical information. Our work is exemplified through case studies where<br>
+Internet-based systems and temporal reasoning may be employed</em> </div>
+             <br></div><hr>
+        <center>
+        <h2>Introduction</h2></center>
+        <div class="line">
+            <hr>
+        </div>
+            
+ <div class="p4">  
+    With the recent advancements in computing power, digital signal processing techniques<br>
+and data communications a new era in the delivery of medicine and patient management<br>
+has evolved. As the underpinning communication systems and infrastructures continue<br>
+to develop and move from being fixed or terrestrial in nature to being Internet and mobile<br>
+based, we can expect the flexibility and application of Information and Communication<br>
+Technologies (ICT) in healthcare to expand.<br>
+As the percentage of the elderly within the population increases, we now face the<br>
+challenge of healthcare service initiatives driven by the goals of individual autonomy and<br>
+quality of life. The results have subsequently produced a manifest shift from institutional<br>
+to community care. To improve upon current levels of care provided requires the cost-<br>effective application of ICT. As shown in Figure 1, (Malaysian Telemedicine Blueprint,<br>
+2001) this requires the redevelopment of healthcare infrastructures and their service<br>
+provision by shifting the allocation of resources from secondary and tertiary-care<br>
+institutions towards the preventative management at the primary care level, as well as<br>
+providing services to individuals at home where they are likely to be most cost-effective.<br>
+Central to the uptake of ICT solutions within healthcare will be the usage of the Internet.<br>
+The Internet has the ability to harness the communications between patients and<br>
+healthcare professionals and also between healthcare professionals. Such an infrastruc-<br>ture is driven by vast amounts of clinical information, however, care must be taken that<br>
+efficient processing takes place to optimize usage of the information collated. One of the<br>
+many attributes related to healthcare information is “the notion of time”. The application<br>
+of computational approaches that can effectively manage time related healthcare infor-<br>mation has recently been found as not having their full potential exploited (Augusto,<br>
+2003a). It has been the aim of this work to focus on these time related healthcare<br>
+information issues and show how techniques, capable of effectively managing time<br>
+related information, may be employed in the healthcare arena.
+      </div>
+        <br>
+       <center> <img src="34%20page.jpg">
+           </center><br>
+        <hr><br><br>
+        <div class="p1">
+        Given the breadth of the subject area addressed in this work, introductory and pertinent<br>
+issues have only be presented to provide a more readable article for a broader target<br>
+audience. References to further technical information and guidance are provided through-<br>out. The remainder of the work is divided as follows; Section 2 provides an overview of<br>
+Internet-based healthcare and decision support systems. Section 3 provides a classical<br>
+overview of how temporal reasoning based systems can accommodate for time centered<br>
+data and specifically Internet-based healthcare. Section 3 provides three case studies<br>
+offering general examples as to how temporal reasoning systems may be employed.<br>
+Section 4 provides details on future challenges and visions in this area and overall<br>
+conclusions are drawn in Section 5.<br>
+        </div>
+        <h2><center>The Internet and Decision<br>
+Support Systems</center></h2>
+        <div class="line">
+            <hr>
+        </div>
+        <div class="p1">
+        A key component to the facilitation of ICT within healthcare is the usage of Internet<br>
+driven technologies (Bushko, 2002). The Internet, coupled with tools such as videocon-<br>ferencing, mobile communications, and digital technologies offer the potential to<br>
+significantly improve the processes supporting patient care. Although new and still with<br>
+a long way to go before being massively used, Internet-based healthcare is not a futuristic<br>
+dream but a reality that is already benefiting a range of communities and healthcare<br>
+professionals around the globe. This will inevitability result in patients (and healthcare<br>
+professionals) being more frequently confronted with ICT healthcare applications. This,<br>
+coupled with the fact that patients are now demanding a larger role in the management<br>
+of their own health and healthcare (Beun, 2003), will result in the relationship between<br>
+patients and healthcare professionals changing.<br><br>
+A major factor related to the role the Internet may offer has been its wide scale uptake.<br>
+Figures would now suggest that nearly one in every two people in Western Europe and<br>
+the United States have Internet access. This uptake has been propagated into the health<br>
+domain with General Practitioners and Hospitals now also having increased access to the<br>
+Internet. This subsequently increases the long term potential for Internet driven<br>
+healthcare related activities. Figure 2 shows a summary, at a European level, of the<br>
+percentages of Internet access in the aforementioned healthcare domains (Beolchi, 2003).<br></div>
+        <h2>Examples of Internet-Based Healthcare</h2>
+         <div class="line">
+            <hr>
+        </div>
+        <div class="p1">
+        Although beyond the scope of this article to present an in depth coverage of how the<br>
+Internet is currently utilized in the healthcare domain, it is nonetheless possible to<br>
+identify a number of succinct areas in which it is used by both patients and healthcare<br>
+professionals:<br>
+<b>Information Provision: </b>The Internet can be effectively used to deliver healthcare<br>
+information. Already, the Internet provides an immense resource for patient-healthcare<br>
+</div>
+    

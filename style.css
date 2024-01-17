@@ -1,0 +1,39 @@
+body{
+    font-size: 12px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.page{
+    margin-left: 50%;
+}
+.p3 p{
+    text-align: center;
+    font-size: 14px solid;  
+}
+.subtitle{
+    font-size: 14px;
+}
+img{
+    width: 400px;
+    height: 250px;
+}
+.img3 img{
+    width: 40px;
+    height: 40px;
+}
+.line hr{
+    height: 2px;
+    background-color: black;
+    margin-right: 10%;
+    
+}
+.italy{
+    font-size: 13px;
+    
+}
+
+
+
+
+
+
